@@ -69,10 +69,10 @@ company_info_matrix = np.delete(company_info_matrix, 0, axis=0)
 np.random.shuffle(company_info_matrix)
 
 
-date_to_start = date(2020, 4, 17)
+date_to_start = date(2020, 1, 25)
 date_now = date_to_start + timedelta(days=7)
 
-for index in range(9):
+for index in range(54):
     # file_explorer_icon_x = 1440
     # file_explorer_icon_y = 940
     
